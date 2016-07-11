@@ -1,0 +1,163 @@
+/* Global resets */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+}
+
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+
+body {
+  font-size: 15px;
+}
+
+.box {
+  width: 300px;
+  margin-bottom: 1em;
+  background-color: #eee;
+  text-align: left;
+  height: 2em;
+}
+
+p {
+  margin-bottom: 1.2em;
+  color: #777;
+}
+
+em {
+  color: #EF5F3C;
+  font-weight: bold;
+  font-style: normal;
+}
+
+a {
+  color: #20A1D4;
+  text-decoration: none;
+}
+
+.content{
+  border: 1px solid #DCDCDC;
+  padding: 0.8em;
+}
+
+#donate_rectangle{
+  background-color: #414141;
+  color: #ffffff;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  text-align: center;
+  
+}
+
+.triangle-isosceles {
+  position: relative;
+  padding: 1em;
+  margin-bottom: 1em;
+  color: #000;
+  border-radius: 3px;
+  background-color: #414141;
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  bottom: -0.4em;
+  right: 2em;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #414141 transparent;
+}
+
+#progressbar{
+  height: 1em;
+  border: 1px solid #eaeaea;
+  border-bottom: 0;
+}
+
+.ui-progressbar{
+   border-radius: 0;
+   
+}
+
+.button{
+  display: inline-block;
+  width: 100%;
+  font-size: 0.8em;
+  border: 1px solid #eaeaea;
+  text-align: center;
+  border-radius: 0.3em;
+  line-height: 1.4;
+  padding: 0.5em;
+  color: #777;
+  background-color: #fcfcfc;
+  
+}
+
+#donate{
+  color: #fff;
+  font-size: 1.2em;
+  background-color: #1CBC2C;
+  border-color: #1CBC2C;
+  padding: 0.7em;
+  box-shadow: 0 0;
+}
+
+.row{
+  width: 100%;
+}
+.col{
+  width: 50%;
+  padding-right: 0.4em;
+  float: left;
+}
+
+#input{
+  width: 50px;
+  border: none;
+  font-weight: bold;
+}
+
+.input_div{
+  width: 95%;
+  border: 1px solid #DCDCDC;
+  padding: 1em; 
+  border-radius: 0.3em;
+}
+
+
+#tell_frends{
+  display: block;
+  width: 12em;
+  margin: 0 auto;
+  border: 1px solid #DCDCDC;
+  margin-top: 0.8em;
+  padding: 1.2em;
+  font-weight: bold;
+  
+}
+
+
+
